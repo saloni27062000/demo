@@ -1,0 +1,227 @@
+.align-inline{
+    display: flex;
+    flex-direction: row;
+}
+
+.align-inline .navbar-brand .fa-solid{
+    display: flex;
+    flex-direction: row;
+}
+
+.course{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+
+  .course-header{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .justify-content-center{
+    justify-content: center;
+  }
+
+  #course{
+    padding: 40px;
+    justify-content: space-between;
+    
+  }
+
+  #founder{
+   
+    padding-top: 5rem;
+  }
+
+#about{
+  padding: 50px;
+}
+.about-row{
+  justify-content: center;
+  align-items: center;
+}
+
+  #article{
+    background-image: url("/Images/article-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(rgb(86, 210, 67), rgb(13, 56, 9)); */
+    position: relative;
+    padding: 3rem;
+    margin-top: 30px;
+    
+    
+  }
+
+  .center-class{
+    padding: 40px;
+    
+  }
+
+
+  .footer{
+    /* background-image: url("/Images/footer-bg.webp"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 40px 60px 40px 60px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    align-items: center;
+    
+  }
+
+  .link-underline{
+    text-decoration: none;
+  }
+
+
+  .container-fluid{
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+    color: rgb(5, 5, 5);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }  
+
+  .content-cities {
+    position: absolute;
+    top: 10px;
+    margin: 20px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }   
+
+
+.contact h1 {
+  font-family: 'Protest Strike', sans-serif;
+}  
+
+.contact .form-group {
+  font-family: 'Protest Strike', sans-serif;
+} 
+
+.contact p{
+  font-family: 'Protest Strike', sans-serif;
+} 
+
+.cities-post h1{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.post-content{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.post-content h1{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.youtube h1{
+  font-family: 'Cinzel', serif;
+}
+
+.service-content h4{
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+}
+
+.service-content h1{
+  font-family: 'Rubik Scribble', system-ui;
+  font-size: 60px;
+}
+
+.second-section h3{
+  font-family: 'Sofadi One', system-ui;
+}
+
+.recent-posts h5{
+  font-family: 'IM Fell English SC', serif;
+}
+
+.recent-posts h1{
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.team-content h1{
+  font-family: 'Amatic SC', sans-serif;
+}
+
+
+
+.project-content{
+  font-family: 'Protest Strike', sans-serif;
+}
+
+.experience{
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+}
